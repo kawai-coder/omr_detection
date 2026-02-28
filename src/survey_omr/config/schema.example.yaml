@@ -1,0 +1,41 @@
+meta:
+  version: v1
+  questionnaire: default
+  dpi: 300
+  page_size: [2480, 3508]
+  pages_per_student: 2
+pages:
+  page1:
+    template_path: ""
+  page2:
+    template_path: ""
+questions:
+  - id: Q1
+    page: 1
+    type: single
+    options: [A, B, C, D]
+    rois:
+      answer_box: [100, 100, 300, 180]
+      option_boxes:
+        A: [320, 100, 380, 160]
+        B: [390, 100, 450, 160]
+        C: [460, 100, 520, 160]
+        D: [530, 100, 590, 160]
+  - id: Q2
+    page: 1
+    type: multi
+    options: [A, B, C, D, E, F, OTH]
+    rois:
+      answer_box: [100, 220, 300, 300]
+      option_boxes:
+        A: [320, 220, 380, 280]
+        B: [390, 220, 450, 280]
+        C: [460, 220, 520, 280]
+        D: [530, 220, 590, 280]
+        E: [600, 220, 660, 280]
+        F: [670, 220, 730, 280]
+        OTH: [740, 220, 800, 280]
+open_ended:
+  - id: OPEN1
+    page: 2
+    open_text_box: [100, 500, 1400, 1200]

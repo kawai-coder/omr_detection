@@ -1,0 +1,26 @@
+# data / outputs
+/data/*.pdf
+/data/**/*.pdf
+/outputs/**
+!/outputs/.gitkeep
+/.cache/**
+/debug_out/**
+
+# generated artifacts
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# env / IDE
+.venv/
+.conda/
+.idea/
+.vscode/

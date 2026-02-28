@@ -1,0 +1,14 @@
+pymupdf
+opencv-python
+numpy
+pandas
+openpyxl
+pyyaml
+tqdm
+pillow
+streamlit
+rich
+pytesseract
+# optional heavy dep:
+# paddleocr
+pytest
