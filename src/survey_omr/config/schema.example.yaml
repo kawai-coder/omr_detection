@@ -1,0 +1,45 @@
+meta:
+  questionnaire_version: "v1"
+  page_size: [2480, 3508]
+  dpi: 300
+  pages_per_student: 2
+  roi_version: "v1"
+pages:
+  page1:
+    template_path: ""
+  page2:
+    template_path: ""
+questions:
+  - id: Q1
+    page: 1
+    type: single
+    options: [A, B, C, D]
+    rois:
+      answer_box: [100, 100, 260, 150]
+      option_boxes:
+        A: [300, 100, 340, 140]
+        B: [350, 100, 390, 140]
+        C: [400, 100, 440, 140]
+        D: [450, 100, 490, 140]
+  - id: Q2
+    page: 1
+    type: multi
+    options: [A, B, C, D, E, F, OTH]
+    rois:
+      answer_box: [100, 180, 260, 230]
+      option_boxes:
+        A: [300, 180, 340, 220]
+        B: [350, 180, 390, 220]
+        C: [400, 180, 440, 220]
+        D: [450, 180, 490, 220]
+        E: [500, 180, 540, 220]
+        F: [550, 180, 590, 220]
+        OTH: [600, 180, 660, 220]
+open_ended:
+  - id: OE1
+    page: 2
+    open_text_box: [120, 300, 2200, 1200]
+defaults:
+  mark_threshold: 0.18
+  ocr_threshold: 0.60
+  margin: 0.03

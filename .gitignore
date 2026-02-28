@@ -1,0 +1,34 @@
+# Data and outputs
+data/*.pdf
+data/**/*.pdf
+outputs/**
+!outputs/.gitkeep
+!data/.gitkeep
+.cache/**
+debug_out/**
+
+# Generated artifacts
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.log
+*.jsonl
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env and IDE
+.venv/
+.conda/
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
