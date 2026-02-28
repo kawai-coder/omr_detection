@@ -1,0 +1,19 @@
+name: survey-omr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pymupdf
+  - opencv
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - pillow
+  - streamlit
+  - rich
+  - pip:
+      - pytesseract>=0.3.10
+      # paddleocr is optional and can be heavy; install manually if needed.
